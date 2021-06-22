@@ -1,9 +1,9 @@
-function tail(array){
-    if(array){
+function tail(array) {
+    if (array) {
         console.log(array.slice(1))
     }
 
-    else{
+    else {
         console.log(undefined)
     }
 }
