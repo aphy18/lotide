@@ -1,17 +1,19 @@
 function countLetters(string){
   let results = {};
-  let counter = 0;
+  let counter = 1;
 
-  if(string) {
-    for(const letter of string){
-        if(letter){
-          counter ++;
-          results[letter] = counter;
-        }
+  for(let i = 0; i < string.length; i++){
+    
+    if(string[i] === " "){
+      continue;
+    } else if(string[i] in results){
+      results[string[i]] += 1
+    } else {
+      results[string[i]] = counter
     }
   }
-  return results;
+  return results
 }
 
 
-countLetters("rerrange")
+console.log(countLetters("rerrange"))
