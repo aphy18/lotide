@@ -1,19 +1,34 @@
-function countLetters(string){
-  let results = {};
-  let counter = 1;
+// function countLetters(string){
+//   let results = {};
+//   let counter = 1;
 
-  for(let i = 0; i < string.length; i++){
+//   for(let i = 0; i < string.length; i++){
     
-    if(string[i] === " "){
+//     if(string[i] === " "){
+//       continue;
+//     } else if(string[i] in results){
+//       results[string[i]] += 1
+//     } else {
+//       results[string[i]] = counter
+//     }
+//   }
+//   return results
+// }
+
+function countLetters(str) {
+  let results = {};
+  for (let char of str) {
+    if (char === " ") {
       continue;
-    } else if(string[i] in results){
-      results[string[i]] += 1
+    }
+    if (results[char]) {
+      results[char] += 1;
     } else {
-      results[string[i]] = counter
+      results[char] = 1;
     }
   }
-  return results
+  console.log(results);
 }
 
 
-console.log(countLetters("rerrange"))
+countLetters("rerrange");
