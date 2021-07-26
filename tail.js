@@ -7,13 +7,10 @@ const tail = arr => {
   return arr.slice(1);
 };
 
-//in JS two different arrays will never be equal to each other due to them having different "addresses"
-
-
 const words = ["Lighthouse", "Labs"];
 assertEqual(words.length, 2);
 
-const result = tail([1,2,3,4,5]); // saving the function inside a variable
+const result = tail([1,2,3,4,5]);
 assertEqual(result[0],2);
 
 
