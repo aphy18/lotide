@@ -1,16 +1,12 @@
 const assertEqual = require('./assertEqual');
 
-
 function head(arr) {
   if (!arr) {
     return undefined;
   }
   return arr[0];
 }
-    
 
-head(["Rafee","Aphy","Abdi"]);
+assertEqual(head([1,2,3]),1)
 
 module.exports = head;
-
-// assertEqual(head,head)
