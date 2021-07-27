@@ -12,7 +12,7 @@ function eqArrays(arr1, arr2) {
   });
   console.log(value)
   return value;
-}
+};
 
 assertEqual(eqArrays([1,2,3],[1,2,3,4]), false);
 assertEqual(eqArrays([2,4,6],[2,4,6]), true);

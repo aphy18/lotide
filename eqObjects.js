@@ -15,10 +15,9 @@ const eqObjects = function(obj1, obj2) {
         return false;
       }
     }
-  
     return true;
   
-  }
+  };
     
 const ab = { a: "1", b: "3" };
 const ba = { b: "2", a: "1" };

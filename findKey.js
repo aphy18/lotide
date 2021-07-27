@@ -1,12 +1,9 @@
-
-
 function findKey(object, callback) {
     for (let key of Object.keys(object)) {
         let value = object[key];
         if (callback(value)) {
             console.log(key)
             return key;
-
         };
     };
     return undefined;

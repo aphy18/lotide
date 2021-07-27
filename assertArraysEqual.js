@@ -6,7 +6,7 @@ function assertArraysEqual(arr1, arr2) {
   } else {
     console.log("These arrays are not equal.");
   }
-}
+};
 
 assertArraysEqual([1,2,4],[1,2,4,11]);
 

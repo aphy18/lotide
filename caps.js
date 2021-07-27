@@ -8,6 +8,6 @@ const titleCase  = function(text) {
   
     
 
-    titleCase("hI mY NamE is apHY")
+    titleCase("hI mY NamE is apHY");
 
 

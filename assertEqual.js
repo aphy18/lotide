@@ -6,7 +6,7 @@ function assertEqual (actual,expected) {
   } else {
     console.log(`${fail} Assertion Failed: [actual] !== [expected]`);
   }
-}
+};
 
 // this is making a replica of the console.assert() method
 
