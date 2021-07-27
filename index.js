@@ -1,6 +1,6 @@
-const head = require('./head'); // regular for head
-const tail = require('./tail').tail; // object format for tail
-const middle = require('./middle').middle; // I used object format for middle
+const head = require('./head'); 
+const tail = require('./tail');
+const middle = require('./middle');
 
 
 const manipulateArray = { // in ES6, if key = value, just put the key name
@@ -9,5 +9,5 @@ const manipulateArray = { // in ES6, if key = value, just put the key name
     middle
 }
 
+console.log(manipulateArray);
 
-console.log(manipulateArray)

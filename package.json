@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "test driven development, testing functions with mocha and chai",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/aphy18/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aphason Aberham <aphason1@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aphy18/lotide/issues"

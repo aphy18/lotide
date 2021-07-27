@@ -1,4 +1,4 @@
-const assertEqual = require('./test/assertEqualTest.test.js');
+const assertEqual = require('./assertEqual');
 
 const tail = arr => {
   if (!arr) {
